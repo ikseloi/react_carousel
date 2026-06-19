@@ -22,7 +22,7 @@ const Carousel: React.FC<Props> = ({
 }) => {
   const [position, setPosition] = useState(0);
   const maxPosition = Math.max(0, images.length - frameSize);
-  const traslateX = -(position * itemWidth);
+  const translateX = -(position * itemWidth);
   const isPrevDisabled = !infinite && position === 0;
   const isNextDisabled = !infinite && position === maxPosition;
 
@@ -59,7 +59,7 @@ const Carousel: React.FC<Props> = ({
         <ul
           className="Carousel__list"
           style={{
-            transform: `translateX(${traslateX}px)`,
+            transform: `translateX(${translateX}px)`,
             transition: `transform ${animationDuration}ms`,
           }}
         >
