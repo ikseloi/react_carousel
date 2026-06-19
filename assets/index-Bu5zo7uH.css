@@ -1,0 +1,1 @@
+.App{width:100%;max-width:1300px;margin-inline:auto}.App__controls{display:grid;grid-template-columns:125px 65px;gap:12px;padding-block:0 20px}.Carousel{width:100%;max-width:1300px}.Carousel__viewport{width:260px;overflow:hidden}.Carousel__list{display:flex;width:1300px;overflow:hidden;list-style:none;margin:0;padding:0}
